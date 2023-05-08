@@ -14,7 +14,7 @@ Step:-1
 Create github Account:
  Open github.com
  Create account
- Create repository (Let it be Github_Tutorials)
+ Create repository (Let it be github_tutorials)
 
 Step:-2
   Download and install git:
@@ -37,7 +37,7 @@ Step:-3
   
  Check the Current directory : pwd
  Change directory : cd directoryname
- change the deirecory to 1 step back: cd ..
+ change the directory to 1 step back: cd ..
   
 Step:-4
    Create directory on PC (Let it be on Desktop) location: 
@@ -46,16 +46,16 @@ Step:-4
    
 Step:-5
   Copy/download the repository from github to your local PC called git clone
-    git clone https://github.com/raju-shrestha/Github_Tutorials.git
+    git clone https://github.com/raju-shrestha/github-tutorials.git
     
   Command to listout the content of current Directory: ls
-    Go to local repository: cd Github_Tutorials
+    Go to local repository: cd github_tutorials
     Listout the content of local repository: ls
     To know the status (change) of current working directory on github : git status
     To clear the git command: clear
 
   Connect gitbash to github Remote Repository:
-    git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+    git remote add origin https://github.com/raju-shrestha/github_tutorials.git
     
 Step:-6 
    Git Add and Commit 
@@ -66,7 +66,7 @@ Step:-6
  Step:-7
     Publishing changes back to github (Push): 
     Before push, first connect to github remote repository:
-                Command: git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+                Command: git remote add origin https://github.com/raju-shrestha/github_tutorials.git
     Git push command: git push -u origin master ---> origin is the nickname of github project
     Force push command : git push -f origin master
 
@@ -76,11 +76,11 @@ Push file from local to remote repository:
      git init
      git add README.md
      git commit -m "commit message"
-     git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     git remote add origin https://github.com/raju-shrestha/github_tutorials.git
      git push -u origin master
      
    OR, you can directly use this command:
-     git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     git remote add origin https://github.com/raju-shrestha/github_tutorials.git
      git push -u origin master
 --------------------------------------------------------------------------------------
 
@@ -105,7 +105,7 @@ Switching Between the Branch: This also create the new branch
     git checkout branchname
 
 Copy and Download Remote Repository to Local PC:
-    git clone https://github.com/raju-shrestha/Github_Tutorials.git <-- Copy and paste SSH Key
+    git clone https://github.com/raju-shrestha/github_tutorials.git <-- Copy and paste SSH Key
     See file on locally clone repository: ls                                                                  
     git pull origin master
     git add filename --> Add file to master branch
@@ -142,7 +142,7 @@ REMOVE FILES FROM GIT REPOSITORY
 
 NOTE: 
 To add files on remote repository:
-     Establish the connection to github remote repository using: git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     Establish the connection to github remote repository using: git remote add origin https://github.com/raju-shrestha/github_tutorials.git
      Initialize git
      Add files
      Commit message
