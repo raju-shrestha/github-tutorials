@@ -1,0 +1,168 @@
+# Github_Tutorials
+
+General Concept : 
+* Working area --> Staging area --> Respository
+
+* Push --> Act of sending file to github from local PC
+* Pull --> Act of receiveing from github to local PC
+* Remote --> Duplicate instance of repository on remote server
+* Clone --> Act of downloading the repository to local PC
+
+Follow the steps:-
+
+Step:-1
+Create github Account:
+ Open github.com
+ Create account
+ Create repository (Let it be Github_Tutorials)
+
+Step:-2
+  Download and install git:
+    For windows from : git-scm.com
+    
+  Install Location on: C:\Program Files\Git
+  Open git from terminal
+  Command to check git version : git version
+ 
+Step:-3
+  Git configuration username and email:
+    git config --global user.name "raju-shrestha"
+    git config --global user.email "rajushrestha2007@gmail.com"
+
+  Check the username and email verification:
+    git config --global --list
+ OR 
+    git config user.name 
+    git config user.email
+  
+ Check the Current directory : pwd
+ Change directory : cd directoryname
+ change the deirecory to 1 step back: cd ..
+  
+Step:-4
+   Create directory on PC (Let it be on Desktop) location: 
+   Command to create directory : mkdir directoryname   (Directoryname be Github)
+   Change directory : cd directoryname 
+   
+Step:-5
+  Copy/download the repository from github to your local PC called git clone
+    git clone https://github.com/raju-shrestha/Github_Tutorials.git
+    
+  Command to listout the content of current Directory: ls
+    Go to local repository: cd Github_Tutorials
+    Listout the content of local repository: ls
+    To know the status (change) of current working directory on github : git status
+    To clear the git command: clear
+
+  Connect gitbash to github Remote Repository:
+    git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+    
+Step:-6 
+   Git Add and Commit 
+   Before adding any file you need to initialize git : git init
+   For add command: git add filename (You can use dot(.) instead of filename to add all files)
+   For commit command: git commit -m "Commit Message"
+   
+ Step:-7
+    Publishing changes back to github (Push): 
+    Before push, first connect to github remote repository:
+                Command: git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+    Git push command: git push -u origin master ---> origin is the nickname of github project
+    Force push command : git push -f origin master
+
+
+Push to an existing Repository from command line:
+Push file from local to remote repository:
+     git init
+     git add README.md
+     git commit -m "commit message"
+     git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     git push -u origin master
+     
+   OR, you can directly use this command:
+     git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     git push -u origin master
+--------------------------------------------------------------------------------------
+
+Git Branch:
+    Branch is the copy of main repository, it is required to work with open source repositiory,
+    Usually a branch is created to on new features that a main repository do not have.
+    -->git branch, git merge and git checkout are generally used command .
+
+Some Commands:
+    List all the branch in the current repository: git branch
+
+Create  New Branch:
+    git branch branchname
+
+ Merge Newly Created Branch with Master Branch
+     git branch merge branchname
+
+Delete Branch:
+    git branch -d branchname 
+
+Switching Between the Branch: This also create the new branch
+    git checkout branchname
+
+Copy and Download Remote Repository to Local PC:
+    git clone https://github.com/raju-shrestha/Github_Tutorials.git <-- Copy and paste SSH Key
+    See file on locally clone repository: ls                                                                  
+    git pull origin master
+    git add filename --> Add file to master branch
+    git commit -m "Commit Message"
+    git push origin master
+       
+ROLL BACK YOUR COMMIT:
+     git reset commitid (you can see commit id using git log command)
+
+     
+    ------------------------------------------------------------------------------------------------------------------------------
+CREATE GIT TAG (VERSIONS):
+     To create tag: git tag tagname
+     To see tag: git tag
+     To push to tag: git push origin tagname
+     To delete tag: git tag -d tagname
+     To checkout tag: git checkout tagname , and then to switch to branch : git checkout branchname
+     
+    References: https://www.drupixels.com/blog/git-tags-guide-create-delete-push-tags-remote-and-much-more
+     
+     
+     
+ Some Other Useful Commands: 
+    git  status --> check the status of current working directory
+    clear --> To clear git command from terminal
+    git log --> See the comments history in chronological order ----> q to exit from git log
+    git rm filename --> Remove file
+    git mv originalfilename renamed-filename  --> To rename original file to other file
+    git reset HEAD filename --> Bring back to working area(Unstaging area)
+    git checkout commit-number filename --> Get the previous committed file
+                                                                        
+REMOVE FILES FROM GIT REPOSITORY  
+     git clean -fd --> removes all file from current directory
+
+NOTE: 
+To add files on remote repository:
+     Establish the connection to github remote repository using: git remote add origin https://github.com/raju-shrestha/Github_Tutorials.git
+     Initialize git
+     Add files
+     Commit message
+     Push
+
+    
+To add files to local (PC) repository:
+     clone the repository to create a local working copy of existing remote repository
+     Pull the changed files to a local repository
+     Add New files/ Change something to already stored file
+     Commit files with some message
+     Push files
+    
+     
+     ADD FILE FROM COMMAND
+     touch filename.extension
+     
+         -------------------------------------****************************************------------------------------------
+    
+  
+  
+  
+  
