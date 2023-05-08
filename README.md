@@ -1,4 +1,3 @@
 # github-tutorials
-# References:
-    https://youtube.com/playlist?list=PLu0W_9lII9ahVQekD7ePHmnirTePXwIln
-    https://youtu.be/e1icpIbLNx8
+https://youtube.com/playlist?list=PLu0W_9lII9ahVQekD7ePHmnirTePXwIln
+https://youtu.be/e1icpIbLNx8
