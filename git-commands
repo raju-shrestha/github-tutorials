@@ -59,6 +59,8 @@ Step:-5
     
 *** To push file to remote first you need to clone: git clone https://github.com/raju-shrestha/github-tutorials.git
 *** Then git add and commit and then finally use git push command
+*** You can download and install github desktop from here: https://desktop.github.com/
+*** You need to signin github account before push
 
 Step:-6 
    Git Add and Commit 
