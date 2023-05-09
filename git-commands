@@ -57,11 +57,6 @@ Step:-5
   Connect gitbash to github Remote Repository:
     git remote add origin https://github.com/raju-shrestha/github_tutorials.git
     
-*** To push file to remote first you need to clone: git clone https://github.com/raju-shrestha/github-tutorials.git
-*** Then git add and commit and then finally use git push command
-*** You can download and install github desktop from here: https://desktop.github.com/
-*** You need to signin github account before push
-
 Step:-6 
    Git Add and Commit 
    Before adding any file you need to initialize git : git init
@@ -74,6 +69,16 @@ Step:-6
                 Command: git remote add origin https://github.com/raju-shrestha/github_tutorials.git
     Git push command: git push -u origin master ---> origin is the nickname of github project
     Force push command : git push -f origin master
+    
+-------------------------------------------------------------------------------------------------------------------   
+* You can download and install github desktop from here: https://desktop.github.com/
+* You need to signin github account  from installed github desktop before push
+
+* To push file to remote first you need to clone: git clone https://github.com/raju-shrestha/github-tutorials.git
+* Then git add filename
+* git commit -m "commit message"
+* And, then finally use git push
+-----------------------------------------------------------------------------------------------------------------------
 
 
 Push to an existing Repository from command line:
