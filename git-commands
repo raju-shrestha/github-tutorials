@@ -80,6 +80,9 @@ Step:-6
 * And, then finally use git push
 -----------------------------------------------------------------------------------------------------------------------
 
+# Switch to multiple accout: git config --global credential.useHttpPath True
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Push to an existing Repository from command line:
 Push file from local to remote repository:
