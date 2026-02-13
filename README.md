@@ -1,4 +1,4 @@
-# github-tutorials
+# Github-tutorials
 
 ## References:
 https://youtube.com/playlist?list=PLu0W_9lII9ahVQekD7ePHmnirTePXwIln
