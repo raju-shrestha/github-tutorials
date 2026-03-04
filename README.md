@@ -9,3 +9,5 @@ https://youtu.be/2MGGJtTH0bQ?t=14
 
 #### Want to know more:
 https://github.com/raju-shrestha/Git-Tutorials/blob/master/Git%20%26%20Github.pdf
+
+https://education.github.com/git-cheat-sheet-education.pdf
